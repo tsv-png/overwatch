@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 285px;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../components/img/capa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title-header {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.2px;
+}
