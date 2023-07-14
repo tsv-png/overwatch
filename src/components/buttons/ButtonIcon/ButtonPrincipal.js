@@ -11,7 +11,7 @@ import {filtrar} from '../../Card/Main.js'
 function ButtonPrincipal(props) {
 
     return (
-        <div className="container">
+        <div className="container" onClick={props.onClick}>
             <button className="button"  > <img className="icon" src={props.imagem}/> {props.name} </button>
             
         </div>
